@@ -7,10 +7,10 @@ module Overkill
           next if current.include?("iTunesHelper")
           next unless current.include?("/Applications/iTunes.app/Contents/MacOS/iTunes")
 
-          puts "Ugh, iTunes launched again, killing the process... 💥"
+          puts "iTunes launched itself, killing the process now... 💥"
           `killall iTunes`
         end
-        sleep 0.25
+        sleep 0.1
       end
     end
 
