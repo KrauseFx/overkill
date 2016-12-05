@@ -21,7 +21,9 @@ I first tweeted about this idea [over a year ago](https://twitter.com/krausefx/s
 
 Many of iTunes' popups require you to click them away, unless you want to manually force quit iTunes.
 
-![assets/iTunesLogin.png](assets/iTunesLogin.png)
+<p align="center">
+  <img src="assets/iTunesLogin.png" width="650" />
+</p>
 
 #### Video Demo:
 
