@@ -19,6 +19,10 @@ Another nice benefit of this is that you don't have to manually close iTunes whe
 
 I first tweeted about this idea [over a year ago](https://twitter.com/krausefx/status/649706992655708164).
 
+Many of iTunes' popups require you to click them away, unless you want to manually force quit iTunes.
+
+![assets/iTunesLogin.png](assets/iTunesLogin.png)
+
 #### Video Demo:
 
 iTunes usually launches as soon as you plugin your iPhone. With _overkill_ running, the iTunes process is killed immediately, so your workflow isn't interrupted.
