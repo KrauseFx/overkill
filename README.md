@@ -15,13 +15,13 @@ Reasons why iTunes launches:
 
 Another nice benefit of this is that you don't have to manually close iTunes when you update your Xcode installation.
 
-![assets/Picture.jpg](https://youtu.be/r1zhJ5wn5sk)
+![https://youtu.be/r1zhJ5wn5sk](assets/Picture.jpg)
 
 I first tweeted about this idea [over a year ago](https://twitter.com/krausefx/status/649706992655708164).
 
 #### Video Demo:
 
-![assets/Thumbnail.jpg](https://youtu.be/r1zhJ5wn5sk)
+![https://youtu.be/r1zhJ5wn5sk](assets/Thumbnail.jpg)
 
 ## Usage
 
