@@ -2,7 +2,7 @@
 
 Did iTunes ever launch without you opening the app? Use _overkill_ to instantly kill iTunes once it opened itself.
 
-![assets/image.jpg](assets/image.jpg)
+![assets/Picture.jpg](assets/Picture.jpg)
 
 ## Usage
 
