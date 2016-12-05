@@ -1,21 +1,39 @@
 module Overkill
   class Monitor
     def run
-      loop do
-        output = `ps aux | grep iTunes`.split("\n")
-        output.each do |current|
-          next if current.include?("iTunesHelper")
-          next unless current.include?("/Applications/iTunes.app/Contents/MacOS/iTunes")
+      output = `ps aux | grep -E "#{apps_to_kill.keys.join('|')}"`.split("\n")
+      output.each do |current|
+        next if blacklist.any? { |a| current.include?(a) }
 
-          puts "iTunes launched itself, killing the process now... 💥🎵"
-          `killall iTunes`
+        apps_to_kill.each do |app_name, emoji|
+          next unless current.include?("/Applications/#{app_name}.app/Contents/MacOS/#{app_name}")
+
+          puts "#{app_name} launched itself, killing the process now... 💥 #{emoji}"
+          `killall #{app_name}`
         end
-        sleep 0.1
       end
+      sleep 0.1
+    end
+
+    def apps_to_kill
+      apps = {
+        "iTunes" => "🎵"
+      }
+      apps["Photos"] = "🖼" if ENV["KILL_PHOTOS"]
+
+      apps
+    end
+
+    def blacklist
+      [
+        "iTunesHelper"
+      ]
     end
 
     def self.start
-      self.new.run
+      loop do
+        self.new.run
+      end
     end
   end
 end
