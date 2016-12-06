@@ -45,4 +45,4 @@ ruby overkill.rb &
 
 ## Disclaimer
 
-This repo is meant as a joke, the script uses polling to monitor the active processes. The script is in no way meant to be a serious application.
+Although this tool works perfectly fine, the repo is meant as a joke. The script uses polling to monitor the active processes. The script is in no way meant to be a serious application.
