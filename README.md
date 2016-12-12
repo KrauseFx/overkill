@@ -1,5 +1,7 @@
 # overkill 💥🎵
 
+[![Twitter: @KrauseFx](https://img.shields.io/badge/contact-@KrauseFx-blue.svg?style=flat)](https://twitter.com/KrauseFx)
+
 Did iTunes ever launch without you opening the app? 
 
 Use _overkill_ to instantly kill iTunes once it opened itself, so your workflow isn't interrupted.
