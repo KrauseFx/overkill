@@ -15,6 +15,7 @@ Reasons why iTunes launches:
 - You click on a link on the web, and didn't expect it to be an Music link
 - You updated iTunes
 - You open a file in Finder, and forgot to change the default app to [VLC](https://www.videolan.org/vlc/index.html)
+- You connect Bluetooth Headphones
 
 Another nice benefit of this is that you don't have to manually close iTunes when you update your Xcode installation.
 
