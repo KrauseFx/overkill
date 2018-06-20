@@ -1,3 +1,9 @@
+# overkill is now a native Mac app
+
+Head over to [overkill-for-mac](https://krausefx.com/blog/introducing-overkill-dont-let-itunes-interrupt-your-workflow) for more details
+
+---
+
 # overkill 💥🎵
 
 [![Twitter: @KrauseFx](https://img.shields.io/badge/contact-@KrauseFx-blue.svg?style=flat)](https://twitter.com/KrauseFx)
