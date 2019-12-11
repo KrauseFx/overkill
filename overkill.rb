@@ -17,7 +17,7 @@ module Overkill
 
     def apps_to_kill
       apps = {
-        "iTunes" => "🎵"
+        "Music" => "🎵"
       }
       apps["Photos"] = "🖼" if ENV["KILL_PHOTOS"]
 
